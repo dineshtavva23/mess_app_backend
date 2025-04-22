@@ -44,9 +44,9 @@ app.post('/deploy', async (req, res) => {
   } 
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'admin_dashboard.html'));
-  });
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'admin_dashboard.html'));
+//   });
   
 module.exports = app;
 
