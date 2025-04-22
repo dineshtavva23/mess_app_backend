@@ -42,9 +42,9 @@ app.post('/login', async (req, res) => {
   } 
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'messregistration.html'));
-  });
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'messregistration.html'));
+//   });
   
 module.exports = app;
 
