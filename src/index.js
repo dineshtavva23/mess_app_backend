@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 
 const allowedOrigins = [
-    'https://jazzy-gingersnap-e605bb.netlify.app/'
+    'https://jazzy-gingersnap-e605bb.netlify.app'
 ];
 
 app.use(cors({
