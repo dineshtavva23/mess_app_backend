@@ -3,8 +3,6 @@ const cors = require('cors');
 const app = express();
 
 const allowedOrigins = [
-    'https://jazzy-gingersnap-e605bb.netlify.app',
-    'https://warm-eclair-08df52.netlify.app',
     'https://roaring-cuchufli-792895.netlify.app'
 ];
 
